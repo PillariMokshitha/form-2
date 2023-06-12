@@ -1,0 +1,114 @@
+/* universal selector which applies to all the elements */
+*{
+    padding:0;
+}
+
+/* styling heading tag */
+h2{
+    text-align: center;
+}
+
+
+.container{
+    margin:30px 30px;
+}
+/* implementing flex concept along with flex properties */
+.box{
+    display:flex;
+    justify-content: center;
+    margin:30px 30px;
+}
+
+/* setting width and height for class selector having value one */
+.one{
+    width:640px;
+    height:auto;
+    background-color: whitesmoke;
+}
+
+.two{
+    width:300px;
+    height:auto;
+}
+
+.inner{
+    margin:30px;
+}
+
+.forms{
+    margin-top: 15px;
+}
+.item1{
+    float:left;
+    margin-right: 25px;
+}
+
+.item2{
+    margin-bottom: 20px;
+    float:left;
+}
+
+/* attribute selector for different input types to style specific element */
+input[type="text"],input[type="Email"]{
+    width:250px;
+    border:none;
+    outline:none;
+    background-color: white;
+    padding:10px;
+    margin-top: 5px;
+
+}
+
+/* attribute selector for input element inside subject div section */
+.subject input[type="text"]{
+    width:540px;
+    border:none;
+    outline:none;
+    background-color: white;
+    padding:10px;
+    margin:10px 0px;
+
+}
+
+/* attribute selector for input element inside msg div section */
+.msg input[type="text"]{
+    width:540px;
+    height:100px;
+    border:none;
+    /* text-align: start; */
+    outline:none;
+    background-color: white;
+    padding:10px;
+    margin:10px 0px;
+
+}
+
+/* styling button element using border properties,padding and colors */
+button{
+    padding:10px;
+    background-color: blue;
+    border:none;
+    color:white;
+    border-radius: 5px;
+
+}
+
+/* implementing footer section with flex concept and flex properties */
+.footer{
+    display:flex;
+    justify-content:center;
+
+}
+
+img{
+    margin-left: 50px;
+}
+
+/* setting up padding and margin for icons */
+.icons{
+    padding:10px;
+    margin:10px
+}
+
+
+
